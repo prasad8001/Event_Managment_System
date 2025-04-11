@@ -1,0 +1,437 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+  <section class="container-fluid">
+    <div class="bg-light py-2 text-center">
+      <span class="text-danger fw-bold">
+        <img src="https://cdn-icons-png.flaticon.com/16/747/747310.png">
+        Latest Event:
+      </span>
+      <span>Standart Event Name Here "15 October at 20:00 - 22:00 on Manhattan / New York"</span>
+    </div>
+    <nav class="navbar navbar-expand-lg bg-white shadow-sm">
+      <div class="container">
+        <a class="navbar-brand fw-bold d-flex align-items-center" href="#">
+          <img src="https://cdn-icons-png.flaticon.com/64/684/684809.png" width="40">
+          <span class="ms-2">im Event</span>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active fw-bold bg-secondary text-white rounded px-3" href="#">HOME</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle fw-bold" href="#" data-bs-toggle="dropdown">EVENTS</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="/EventManegmentSystem/Single_Event.html">Single Events</a></li>
+                <li><a class="dropdown-item" href="#">Past Events</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle fw-bold" href="#" data-bs-toggle="dropdown">PAGES</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="/EventManegmentSystem/About_us.html">About Us</a></li>
+                <li><a class="dropdown-item" href="/EventManegmentSystem/Contact_us.html">Contact</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold" href="/EventManegmentSystem/Contact_us.html">CONTACT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">🔍</a>
+            </li>
+          </ul>
+
+          <div class="ms-3">
+            <a class="btn btn-light me-2" href="/EventManegmentSystem/Ragitration.html">Register Now</a>
+            <a class="btn btn-light" href="#">Login</a>
+            <a class="btn btn-secondary fw-bold" href="#">SUBMIT EVENT ➕</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section class="container-fluid bg-dark " >
+      <section class="row">
+        <div class="col-12S">
+          <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="/EventManegmentSystem/Images/o03.jpg" alt="..."
+                  class="img-fluid">
+              </div>
+              <div class="carousel-item">
+                <img src="/EventManegmentSystem/Images/o03.jpg" alt="..."
+                  class="img-fluid">
+              </div>
+              <div class="carousel-item">
+                <img src="/EventManegmentSystem/Images/o03.jpg" alt="..."
+                  class="img-fluid">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </section>
+    </section>
+
+
+    <section class="container m-3  col-12 ">
+      <div class="row">
+        <div>
+          <a href="" class="text-secondary text-decoration-none fs-2">ALL</a>
+          <a href="" class="text-secondary text-decoration-none fs-2">FESTIVAL</a>
+          <a href="" class="text-secondary text-decoration-none fs-2">PLAYGROUND</a>
+          <a href="" class="text-secondary text-decoration-none fs-2">CONFERENCE</a>
+        </div>
+
+        <div class="col-12 col-md-6 col-xl-3">
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="Images/o04.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Standart Event Name Here</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-xl-3">
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="Images/o04.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Standart Event Name Here</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-xl-3">
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="Images/o04.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Standart Event Name Here</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-xl-3">
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="Images/o04.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Standart Event Name Here </h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container py-5">
+          <div class="row text-center">
+            <div class="col-md-3">
+              <div class="d-flex justify-content-center">
+                <div class="bg-secondary rounded p-4"
+                  style="clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);">
+                  <img src="https://cdn-icons-png.flaticon.com/128/747/747310.png" width="50">
+                </div>
+              </div>
+              <h5 class="fw-bold mt-3">7/24 EVENT AVAILABLE</h5>
+              <hr class="border-danger w-25 mx-auto">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed vel velit</p>
+              <button class="btn btn-outline-secondary">DETAILS</button>
+            </div>
+
+            <div class="col-md-3">
+              <div class="d-flex justify-content-center">
+                <div class="bg-secondary rounded p-4"
+                  style="clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);">
+                  <img src="https://cdn-icons-png.flaticon.com/128/684/684809.png" width="50">
+                </div>
+              </div>
+              <h5 class="fw-bold mt-3">GREAT LOCATIONS</h5>
+              <hr class="border-danger w-25 mx-auto">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed vel velit</p>
+              <button class="btn btn-outline-secondary">DETAILS</button>
+            </div>
+            <div class="col-md-3">
+              <div class="d-flex justify-content-center">
+                <div class="bg-secondary rounded p-4"
+                  style="clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);">
+                  <img src="https://cdn-icons-png.flaticon.com/128/3068/3068386.png" width="50">
+                </div>
+              </div>
+              <h5 class="fw-bold mt-3">MORE THAN 200 SPEAKERS</h5>
+              <hr class="border-danger w-25 mx-auto">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed vel velit</p>
+              <button class="btn btn-outline-secondary">DETAILS</button>
+            </div>
+
+
+            <div class="col-md-3">
+              <div class="d-flex justify-content-center">
+                <div class="bg-secondary rounded p-4"
+                  style="clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);">
+                  <img src="https://cdn-icons-png.flaticon.com/128/727/727218.png" width="50">
+                </div>
+              </div>
+              <h5 class="fw-bold mt-3">LET'S PARTY AFTER EVENT</h5>
+              <hr class="border-danger w-25 mx-auto">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed vel velit</p>
+              <button class="btn btn-outline-secondary">DETAILS</button>
+            </div>
+
+          </div>
+        </div>
+
+
+
+        <div class="col-2 mx-auto">
+          <a href="" class="btn btn-secondary ">SEE ALL EVENTS</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="container mt-5">
+      <div class="row">
+        <div class="col-12 col-md-6 col-xl-3">
+          <div class="card">
+            <img class="card-img-top" src="Images/o04.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Standard Hotel Name Here</h5>
+              <p class="card-text">Fusce pellentesque velvitae tincidunt egestas. Pellentesque habitant morbi.
+                content.</p>
+              <a href="#" class="btn btn-primary">Tickets & Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-xl-3">
+          <div class="card">
+            <img class="card-img-top" src="Images/o04.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Standard Hotel Name Here</h5>
+              <p class="card-text">Fusce pellentesque velvitae tincidunt egestas. Pellentesque habitant morbi.</p>
+              <a href="#" class="btn btn-primary">Tickets & Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-xl-3">
+          <div class="card">
+            <img class="card-img-top" src="Images/o04.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Standard Hotel Name Here</h5>
+              <p class="card-text">Fusce pellentesque velvitae tincidunt egestas. Pellentesque habitant morbi.</p>
+              <a href="#" class="btn btn-primary">Tickets & Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-xl-3">
+          <div class="card">
+            <img class="card-img-top" src="Images/o04.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Standart Event Name Here</h5>
+              <p class="card-text">Fusce pellentesque velvitae tincidunt egestas. Pellentesque habitant morbi.
+              </p>
+              <a href="#" class="btn btn-primary">Tickets & Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!--end of card-->
+
+
+
+    <section class="bg-secondary container-fluid  ">
+      <section class="row">
+        <div class="col-12 ">
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            </div>
+            <!-- <div class="carousel-inner">
+              <div class="carousel-item active image-fluid">
+                <img src="Images/o04.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              
+                <div class="carousel-item">
+                  <img src="Images/o04.jpg image-fluid" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="Images/o04.jpg image-fluid" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                  </div>
+                </div>
+            </div> -->
+            <div class="carousel-inner">
+
+              <div class="carousel-item active image-fluid">
+                <img src="Images/o04.jpg" class="d-block img-fluid mx-auto" style="max-height: 500px; width:100%; background-size: cover;" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+        
+              <div class="carousel-item">
+                  <img src="Images/o04.jpg" class="img-fluid d-block mx-auto" style="max-height: 500px; width: auto;" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                      <h5>Second slide label</h5>
+                      <p>Some representative placeholder content for the second slide.</p>
+                  </div>
+              </div>
+          
+              <div class="carousel-item">
+                  <img src="Images/o04.jpg" class="img-fluid d-block mx-auto" style="max-height: 500px; width: auto;" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                      <h5>Third slide label</h5>
+                      <p>Some representative placeholder content for the third slide.</p>
+                  </div>
+              </div>
+          </div>
+          
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </section>
+    </section>
+
+
+
+    <div class="container-fluid bg-light py-5">
+      <div class="container">
+        <div class="row">
+
+
+          <div class="col-md-3">
+            <h5 class="fw-bold">ABOUT US</h5>
+            <div class="border-bottom border-danger w-25 mb-3"></div>
+            <p>Fusce pellentesque velvitae tincidunt egestas. Pellentesque habitant morbi. Proin gravida nibh vel velit
+              auctor aliquet.</p>
+            <p class="mb-1"><i class="bi bi-telephone"></i> +90 555 55 55</p>
+            <p><i class="bi bi-envelope"></i> <a href="mailto:info@example.com" class="text-danger">info@example.com</a>
+            </p>
+          </div>
+
+
+          <div class="col-md-3">
+            <h5 class="fw-bold">POPULAR SEARCHES</h5>
+            <div class="border-bottom border-danger w-25 mb-3"></div>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-dark text-decoration-none">Online Registration</a></li>
+              <li><a href="#" class="text-dark text-decoration-none">Sell Event Tickets</a></li>
+              <li><a href="#" class="text-dark text-decoration-none">Post Events</a></li>
+              <li><a href="#" class="text-danger text-decoration-none">Event Planning Software</a></li>
+              <li><a href="#" class="text-dark text-decoration-none">Online Event Management</a></li>
+              <li><a href="#" class="text-dark text-decoration-none">Event Management Software</a></li>
+              <li><a href="#" class="text-dark text-decoration-none">Event Payment</a></li>
+            </ul>
+          </div>
+
+
+          <div class="col-md-3">
+            <h5 class="fw-bold">RECENT TWEETS</h5>
+            <div class="border-bottom border-danger w-25 mb-3"></div>
+            <p><strong>@isamercan</strong> Cupcake chocolate cake sweet roll. #Conference<br><small
+                class="text-muted">about 2 hours ago</small></p>
+            <p><strong>@isamercan</strong> Cupcake chocolate cake sweet roll. #Conference<br><small
+                class="text-muted">about 2 hours ago</small></p>
+          </div>
+
+
+          <div class="col-md-3">
+            <h5 class="fw-bold"><span class="bg-primary text-white px-2">INSTAGRAM PHOTOS</span></h5>
+            <div class="border-bottom border-danger w-25 mb-3"></div>
+            <div class="row g-2">
+              <div class="col-4"><img src="Images/o09.jpg" class="img-fluid"></div>
+              <div class="col-4"><img src="Images/o10.jpg" class="img-fluid"></div>
+              <div class="col-4"><img src="Images/o11.jpg" class="img-fluid"></div>
+              <div class="col-4"><img src="Images/o12.jpg" class="img-fluid"></div>
+              <div class="col-4"><img src="Images/o13.jpg" class="img-fluid"></div>
+              <div class="col-4"><img src="Images/o14.jpg" class="img-fluid"></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
